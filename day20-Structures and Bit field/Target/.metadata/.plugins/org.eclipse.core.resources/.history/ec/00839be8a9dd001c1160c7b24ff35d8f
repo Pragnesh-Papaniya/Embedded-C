@@ -1,0 +1,13 @@
+#include <stdint.h>
+
+#include"main.h"
+
+int main(void)
+{
+
+	RCC_AHBIENR_t *AHB1ENR = (RCC_AHBIENR_t*) 0X40023830;
+	//GPIOx_MODER_t
+//GPIOx_ODR_t
+
+	for(;;);
+}

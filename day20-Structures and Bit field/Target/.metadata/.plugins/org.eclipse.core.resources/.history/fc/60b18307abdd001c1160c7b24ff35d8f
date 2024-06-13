@@ -1,0 +1,58 @@
+#include <stdint.h>
+
+#include"main.h"
+
+void delay(void)
+{
+	for(uint32_t i=0;i<300000;i++);
+
+}
+
+int main(void)
+{
+
+	RCC_AHBIENR_t *AHB1ENR = (RCC_AHBIENR_t*) 0X40023830;
+	//GPIOx_MODER_t   *GPIOA_MODER = 0X40020000;
+	GPIOx_MODER_t   *GPIOC_MODER = (GPIOx_MODER_t*)0X40020800;
+	GPIOx_ODR_t  *GPIOC_ODR=(GPIOx_ODR_t*)0X40020814;
+
+	AHB1ENR->gpioc_en=1;// ENABLE CLK FOR GPIOC
+	GPIOC_MODER->moder_0=1; // OUTPUT MODE 01
+	GPIOC_MODER->moder_1=1; // OUTPUT MODE 01
+	GPIOC_MODER->moder_2=1; // OUTPUT MODE 01
+	GPIOC_MODER->moder_3=1; // OUTPUT MODE 01
+	GPIOC_MODER->moder_4=1; // OUTPUT MODE 01
+	GPIOC_MODER->moder_5=1; // OUTPUT MODE 01
+	GPIOC_MODER->moder_6=1; // OUTPUT MODE 01
+	GPIOC_MODER->moder_7=1; // OUTPUT MODE 01
+	GPIOC_MODER->moder_8=1; // OUTPUT MODE 01
+
+	while(1)
+	{
+	//GPIOC_ODR->
+	/*GPIOC_ODR->ODR_1=1;
+	GPIOC_ODR->ODR_2=1;
+	GPIOC_ODR->ODR_3=1;
+	GPIOC_ODR->ODR_4=1;
+	GPIOC_ODR->ODR_5=1;
+	GPIOC_ODR->ODR_6=1;
+	GPIOC_ODR->ODR_7=1;
+	GPIOC_ODR->ODR_8=1; */
+
+	delay();
+	//GPIOC_ODR->ODR_0=0;
+	/*GPIOC_ODR->ODR_1=0;
+	GPIOC_ODR->ODR_2=0;
+	GPIOC_ODR->ODR_3=0;
+	GPIOC_ODR->ODR_4=0;
+	GPIOC_ODR->ODR_5=0;
+	GPIOC_ODR->ODR_6=0;
+	GPIOC_ODR->ODR_7=0;
+	GPIOC_ODR->ODR_8=0;
+*/
+	delay();
+
+	}
+
+	for(;;);
+}

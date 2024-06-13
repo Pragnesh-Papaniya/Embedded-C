@@ -1,0 +1,32 @@
+#include <stdint.h>
+
+#include"main.h"
+
+void delay(void)
+{
+	for(uint32_t =i=0;i<300000;i++);
+
+}
+
+int main(void)
+{
+
+	RCC_AHBIENR_t *AHB1ENR = (RCC_AHBIENR_t*) 0X40023830;
+	//GPIOx_MODER_t   *GPIOA_MODER = 0X40020000;
+	GPIOx_MODER_t   *GPIOC_MODER = (GPIOx_MODER_t*)0X40020800;
+	GPIOx_ODR_t  *GPIOC_ODR=(GPIOx_ODR_t*)0X40020814;
+
+	AHB1ENR->gpioc_en=1;// ENABLE CLK FOR GPIOC
+	GPIOC_MODER->moder_0=1; // OUTPUT MODE 01
+
+	while(1)
+	{
+	GPIOC_ODR->ODR_0=1;
+	delay();
+	GPIOC_ODR->ODR_0=0;
+	delay();
+
+	}
+
+	for(;;);
+}

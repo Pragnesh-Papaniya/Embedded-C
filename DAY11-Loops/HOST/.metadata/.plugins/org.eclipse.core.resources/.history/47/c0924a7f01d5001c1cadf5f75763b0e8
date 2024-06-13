@@ -1,0 +1,39 @@
+#include <stdio.h>
+#include<stdint.h>
+
+struct Dataset
+{
+
+	    char data1;
+		int data2;
+		char data3;
+		short daat4;
+
+};
+
+int main(){
+
+	struct Dataset data;
+	data.data1=0x11;
+	data.data2=0xffffeeee;
+	data.data3=0x22;
+	data.data4=0xabcd;
+    uint8_t =*ptr;
+    ptr=(uint8_t*)data;
+
+    uint32_t sizeofdata = sizeof(struct Dataset);
+
+	/*char data1=0x11;
+	int data2=0xffffeeee;
+	char data3=0x22;
+	short daat4=0xabcd; */
+
+	printf("Memory Address  Content \n");
+	printf("-------------------------------\n");
+	for(uint32_t i=0;i< sizeofdata;i++)
+	{
+		printf("%p      %x \n",ptr,*ptr);
+		ptr++;
+	}
+	return 0;
+}

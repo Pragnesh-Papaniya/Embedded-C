@@ -1,0 +1,23 @@
+
+#include<Stdio.h>
+#include<stdint.h>
+int choice;
+int c;
+
+int main(){
+	printf("enter the choice:");
+	fflush(stdout);
+	scanf("%d",&choice);
+	do{
+
+
+	}while(c==1);
+printf("\n program terminated");
+	return 0;
+}
+
+
+
+
+
+

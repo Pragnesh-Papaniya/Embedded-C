@@ -1,0 +1,13 @@
+16:05:03 **** Incremental Build of configuration Debug for project sizeof ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:39:47: error: 'carbmw' undeclared (first use in this function)
+   39 |  printf("\n Total memory size  =%u \n",sizeof(carbmw));
+      |                                               ^~~~~~
+../Src/main.c:39:47: note: each undeclared identifier is reported only once for each function it appears in
+make: *** [Src/subdir.mk:25: Src/main.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
+
+16:05:03 Build Failed. 2 errors, 0 warnings. (took 256ms)
+

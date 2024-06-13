@@ -1,0 +1,16 @@
+#include <stdio.h>
+#include<stdint.h>
+
+struct carModel
+{
+
+	uint8_t carSpeed;
+};
+
+int main(){
+
+struct carModel carbmw={0};//c89 method
+printf("details of car BMW is as follows \n");
+printf("size of the struct carModel carbmw  =%u \n",sizeof(carbmw));
+	return 0;
+}

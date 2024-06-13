@@ -1,0 +1,88 @@
+14:35:51 **** Incremental Build of configuration Debug for project UART_PRINTF ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:41:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   41 |   printf("D World \n\r");
+      |   ^~~~~~
+../Src/main.c:41:3: warning: incompatible implicit declaration of built-in function 'printf'
+../Src/main.c:3:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    2 | #include <stdint.h>
+  +++ |+#include <stdio.h>
+    3 | #define GPIOAEN (1U<<0)
+At top level:
+../Src/main.c:72:17: warning: 'compute_uart_bd' defined but not used [-Wunused-function]
+   72 | static uint16_t compute_uart_bd(uint32_t PeriphClk,uint32_t Baudrate)
+      |                 ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "UART_PRINTF.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\PANTECH\OneDrive\Desktop\deskk\DAY23DEMO\UART_PRINTF\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_PRINTF.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART_PRINTF.elf
+ 
+arm-none-eabi-size   UART_PRINTF.elf 
+arm-none-eabi-objdump -h -S  UART_PRINTF.elf  > "UART_PRINTF.list"
+   text	   data	    bss	    dec	    hex	filename
+   5508	    140	   1588	   7236	   1c44	UART_PRINTF.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART_PRINTF.list
+ 
+14:35:59 **** Incremental Build of configuration Debug for project UART_PRINTF ****
+make -j8 all 
+arm-none-eabi-size   UART_PRINTF.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5508	    140	   1588	   7236	   1c44	UART_PRINTF.elf
+Finished building: default.size.stdout
+ 
+14:38:15 **** Incremental Build of configuration Debug for project UART_PRINTF ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:41:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   41 |   printf("D World \n\r");
+      |   ^~~~~~
+../Src/main.c:41:3: warning: incompatible implicit declaration of built-in function 'printf'
+../Src/main.c:3:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    2 | #include <stdint.h>
+  +++ |+#include <stdio.h>
+    3 | #define GPIOAEN (1U<<0)
+At top level:
+../Src/main.c:73:17: warning: 'compute_uart_bd' defined but not used [-Wunused-function]
+   73 | static uint16_t compute_uart_bd(uint32_t PeriphClk,uint32_t Baudrate)
+      |                 ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "UART_PRINTF.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\PANTECH\OneDrive\Desktop\deskk\DAY23DEMO\UART_PRINTF\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_PRINTF.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART_PRINTF.elf
+ 
+arm-none-eabi-size   UART_PRINTF.elf 
+arm-none-eabi-objdump -h -S  UART_PRINTF.elf  > "UART_PRINTF.list"
+   text	   data	    bss	    dec	    hex	filename
+   5508	    140	   1588	   7236	   1c44	UART_PRINTF.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART_PRINTF.list
+ 
+14:38:37 **** Incremental Build of configuration Debug for project UART_PRINTF ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+../Src/main.c: In function 'main':
+../Src/main.c:41:3: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+   41 |   printf("DDDD World \n\r");
+      |   ^~~~~~
+../Src/main.c:41:3: warning: incompatible implicit declaration of built-in function 'printf'
+../Src/main.c:3:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+    2 | #include <stdint.h>
+  +++ |+#include <stdio.h>
+    3 | #define GPIOAEN (1U<<0)
+At top level:
+../Src/main.c:73:17: warning: 'compute_uart_bd' defined but not used [-Wunused-function]
+   73 | static uint16_t compute_uart_bd(uint32_t PeriphClk,uint32_t Baudrate)
+      |                 ^~~~~~~~~~~~~~~
+arm-none-eabi-gcc -o "UART_PRINTF.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\PANTECH\OneDrive\Desktop\deskk\DAY23DEMO\UART_PRINTF\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_PRINTF.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART_PRINTF.elf
+ 
+arm-none-eabi-size   UART_PRINTF.elf 
+arm-none-eabi-objdump -h -S  UART_PRINTF.elf  > "UART_PRINTF.list"
+   text	   data	    bss	    dec	    hex	filename
+   5512	    140	   1588	   7240	   1c48	UART_PRINTF.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART_PRINTF.list
+ 

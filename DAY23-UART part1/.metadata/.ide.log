@@ -1,0 +1,16 @@
+2022-08-11 13:46:29,582 [INFO] Activator:177 - 
+
+
+2022-08-11 13:46:29,610 [INFO] Activator:178 - !SESSION log4j initialized
+2022-08-11 13:46:37,896 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-08-11 17:48:19,922 [INFO] Activator:177 - 
+
+
+2022-08-11 17:48:19,922 [INFO] Activator:178 - !SESSION log4j initialized
+2022-08-11 17:48:26,905 [ERROR] AnalyticsContext:980 - The ST intranet updater server is unknown: mcucrossselector.codex.cro.st.com
+2022-08-12 00:00:53,773 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2022-08-12 00:00:53,799 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-08-12 00:00:54,427 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2022-08-12 00:00:54,430 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 
+2022-08-12 00:00:55,419 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] [Fatal Error] :1:1: Premature end of file.
+2022-08-12 00:00:55,419 [ERROR] LogOutputStream:74 - [STDERR_REDIRECT] 

@@ -1,0 +1,16 @@
+#include<Stdio.h>
+
+#include<Stdint.h>
+
+
+int main()
+{
+	uint8_t const data=10;
+
+
+
+
+	return 0;
+}
+
+

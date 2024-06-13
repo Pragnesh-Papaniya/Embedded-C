@@ -1,0 +1,19 @@
+#include<Stdio.h>
+
+#include<Stdint.h>
+
+
+int main()
+{
+	uint8_t const data=10;
+
+
+	printf("%d \n" ,data);
+
+
+
+
+	return 0;
+}
+
+

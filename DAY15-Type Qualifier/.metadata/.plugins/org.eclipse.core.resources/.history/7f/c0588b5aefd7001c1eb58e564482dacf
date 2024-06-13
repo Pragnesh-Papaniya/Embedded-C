@@ -1,0 +1,24 @@
+#include<Stdio.h>
+
+#include<Stdint.h>
+
+
+int main()
+{
+	uint8_t const data=10;
+
+    //data=11;
+
+    uint8_t *ptrdata;
+
+    ptrdata= (uint8_t)&data;
+
+    //uint8_t *ptrdata=&data;
+
+    *ptrdata=20;
+	printf("%d \n" ,data);
+
+	return 0;
+}
+
+

@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+#include<stdint.h>
+
+int main()
+{
+	uint8_t data =10;
+
+	data=50;
+
+	printf("%d \n",data);
+
+	return 0;
+}
+

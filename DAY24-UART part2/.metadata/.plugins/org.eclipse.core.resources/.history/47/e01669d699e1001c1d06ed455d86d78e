@@ -1,0 +1,27 @@
+
+#include <stdint.h>
+
+uint32_t *portaAHB1ENR =(uint32_t*) 0x40023830;
+uint32_t *APB1ENR      =(uint32_t*) 0x40023840;
+uint32_t *GPIOA_MODER  =(uint32_t*) 0x40020000;
+uint32_t *GPIOA_AFRL   =(uint32_t*) 0x40020020;
+uint32_t *USART2_SR    =(uint32_t*) 0x40024400;
+uint32_t *USART2_DR    =(uint32_t*) 0x40024404;
+uint32_t *USART2_BRR   =(uint32_t*) 0x40024408;
+uint32_t *USART2_CR1   =(uint32_t*) 0x4002440C;
+
+
+int main(void)
+{
+	//Enable clocK access to GPIOA
+	//SET PA2 MOODE TO Alternate function Mode
+	//SET PA2 Alternative function type to UART_TX (AF07)
+	//CONFIGURE UART MODULE
+	//ENABLE CLOCK ACCESS TO UART2
+	//CONFIGURE BAUDRATE
+	//CONFIGURE TRANSFER DIRECTION
+	//ENABLE UART MODULE
+
+
+
+}

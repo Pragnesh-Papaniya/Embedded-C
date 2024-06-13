@@ -1,0 +1,18 @@
+
+#include <stdint.h>
+
+
+int main(void)
+{
+	//Enable clocK access to GPIOA
+	//SET PA2 MOODE TO Alternate function Mode
+	//SET PA2 Alternative function type to UART_TX (AF07)
+	//CONFIGURE UART MODULE
+	//ENABLE CLOCK ACCESS TO UART2
+	//CONFIGURE BAUDRATE
+	//CONFIGURE TRANSFER DIRECTION
+	//ENABLE UART MODULE
+
+
+
+}

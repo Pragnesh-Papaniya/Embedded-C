@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+struct Employee
+{
+	int id;
+	struct{
+		int dd;
+		int yyyy;
+	}var_Doj;
+
+}var_Employee;
+
+int main()
+{
+	var_Employee.id=120;
+	printf("Employee Id: %d \n",var_Employee.id);
+
+	return 0;
+}
+

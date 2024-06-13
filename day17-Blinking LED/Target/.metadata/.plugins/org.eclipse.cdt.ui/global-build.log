@@ -1,0 +1,28 @@
+17:55:21 **** Incremental Build of configuration Debug for project LEDBLINKING ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "LEDBLINKING.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\PANTECH\OneDrive\Desktop\day17\Target\LEDBLINKING\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="LEDBLINKING.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: LEDBLINKING.elf
+ 
+arm-none-eabi-size   LEDBLINKING.elf 
+arm-none-eabi-objdump -h -S  LEDBLINKING.elf  > "LEDBLINKING.list"
+   text	   data	    bss	    dec	    hex	filename
+    796	      8	   1568	   2372	    944	LEDBLINKING.elf
+Finished building: default.size.stdout
+ 
+Finished building: LEDBLINKING.list
+ 
+17:55:31 **** Incremental Build of configuration Debug for project LEDBLINKING ****
+make -j8 all 
+arm-none-eabi-size   LEDBLINKING.elf 
+   text	   data	    bss	    dec	    hex	filename
+    796	      8	   1568	   2372	    944	LEDBLINKING.elf
+Finished building: default.size.stdout
+ 
+17:56:14 **** Incremental Build of configuration Debug for project LEDBLINKING ****
+make -j8 all 
+arm-none-eabi-size   LEDBLINKING.elf 
+   text	   data	    bss	    dec	    hex	filename
+    796	      8	   1568	   2372	    944	LEDBLINKING.elf
+Finished building: default.size.stdout
+ 

@@ -1,0 +1,90 @@
+!SESSION 2022-05-24 17:31:00.464 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-24 17:31:41.054
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-24 17:31:41.223
+!MESSAGE Log4j initialized with config file C:\Users\PANTECH\OneDrive\Desktop\day17\Target\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-24 17:31:57.379
+!MESSAGE Started RMI Server, listening on port 41338
+!SESSION 2022-05-24 17:46:00.285 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-24 17:46:19.501
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-24 17:46:19.676
+!MESSAGE Log4j initialized with config file C:\Users\PANTECH\OneDrive\Desktop\day17\Target\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-24 17:46:31.697
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-24 17:47:43.451
+!MESSAGE Indexed 'LEDBLINKING' (3 sources, 53 headers) in 2.88 sec: 1,949 declarations; 2,811 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2022-05-24 17:48:33.671
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2022-05-24 17:58:48.456
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2022-05-24 17:59:14.701
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-05-24 18:00:07.044
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.cdt.dsf.gdb.internal.ui.console.GdbBasicCliConsole$InputReadJob
+
+!ENTRY org.eclipse.core.jobs 2 2 2022-05-24 18:00:07.046
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.eclipse.debug.core.DebugPlugin$EventDispatchJob
+!SESSION 2022-05-24 19:01:05.116 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-24 19:01:13.555
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-24 19:01:13.649
+!MESSAGE Log4j initialized with config file C:\Users\PANTECH\OneDrive\Desktop\day17\Target\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-24 19:01:22.406
+!MESSAGE Started RMI Server, listening on port 41338
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2022-05-24 19:03:43.477
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2022-05-24 19:06:44.276
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+
+!ENTRY com.st.stm32cube.ide.mcu.debug.swv 1 1 2022-05-24 19:08:15.834
+!MESSAGE SWV configuration; base: 36000000; minDiv: 18; maxDiv: 65535; maxSWO: 2000000; limit: 2000000 => SWO: 2000000; CPU: 16000000; div: 8
+!SESSION 2022-05-25 15:02:21.200 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-25 15:02:25.345
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-25 15:02:29.402
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-25 15:02:29.516
+!MESSAGE Log4j initialized with config file C:\Users\PANTECH\OneDrive\Desktop\day17\Target\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-25 15:02:37.253
+!MESSAGE Started RMI Server, listening on port 41337

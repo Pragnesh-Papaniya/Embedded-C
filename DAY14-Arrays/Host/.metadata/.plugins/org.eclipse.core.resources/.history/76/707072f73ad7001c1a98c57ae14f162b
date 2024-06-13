@@ -1,0 +1,13 @@
+#include <stdio.h>
+#include <stdint.h>
+
+int main(){
+
+
+	uint8_t myNumbers[3]={25,50,100};
+
+	printf("%d \n" ,myNumbers[0]);
+
+	return 0;
+}
+

@@ -1,0 +1,17 @@
+#include <stdio.h>
+#include <stdint.h>
+
+int main(){
+
+
+	uint8_t myNumbers[10]={25,50,100};
+
+	for (uint32_t i=0;i<10;i++)
+	{
+		printf("%d \n" ,myNumbers[i]);
+	}
+
+
+	return 0;
+}
+

@@ -1,0 +1,25 @@
+#include <stdio.h>
+#include <stdint.h>
+
+int main(){
+
+     int len=20;
+
+	uint8_t myNumbers[];
+
+	for (uint32_t i=0;i<len;i++)
+	{
+		myNumbers[i]=i+5;
+		//printf("%d \n" ,myNumbers[i]);
+	}
+	uint32_t length_of_array=sizeof(myNumbers)/sizeof(uint8_t);
+	printf("%d \n" ,length_of_array);
+	for (uint32_t i=0;i<20;i++)
+	{
+		printf("%d \n" ,myNumbers[i]);
+	}
+
+
+	return 0;
+}
+

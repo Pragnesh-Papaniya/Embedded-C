@@ -1,0 +1,17 @@
+19:38:56 **** Incremental Build of configuration Debug for project DEMO ****
+make -j8 all 
+arm-none-eabi-gcc "../Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DNUCLEO_F411RE -DSTM32 -DSTM32F4 -DSTM32F411RETx -c -I../Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Src/main.d" -MT"Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Src/main.o"
+arm-none-eabi-gcc -o "DEMO.elf" @"objects.list"   -mcpu=cortex-m4 -T"C:\Users\PANTECH\OneDrive\Desktop\DAY12-DEMO\Target\DEMO\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="DEMO.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: DEMO.elf
+ 
+arm-none-eabi-size   DEMO.elf 
+arm-none-eabi-objdump -h -S  DEMO.elf  > "DEMO.list"
+   text	   data	    bss	    dec	    hex	filename
+   5584	    108	   1588	   7280	   1c70	DEMO.elf
+Finished building: default.size.stdout
+ 
+Finished building: DEMO.list
+ 
+
+19:38:57 Build Finished. 0 errors, 0 warnings. (took 1s.374ms)
+

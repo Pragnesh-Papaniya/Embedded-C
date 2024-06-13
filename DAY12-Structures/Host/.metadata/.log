@@ -1,0 +1,48 @@
+!SESSION 2022-05-16 19:10:03.843 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\PANTECH\OneDrive\Desktop\DAY12-DEMO\Host
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-16 19:10:15.641
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-16 19:10:15.802
+!MESSAGE Log4j initialized with config file C:\Users\PANTECH\OneDrive\Desktop\DAY12-DEMO\Host\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-16 19:10:23.152
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-16 19:10:58.176
+!MESSAGE Indexed 'example1' (0 sources, 0 headers) in 0.005 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-16 19:23:05.545
+!MESSAGE Indexed 'example2' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+!SESSION 2022-05-17 15:56:40.751 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\PANTECH\OneDrive\Desktop\DAY12-DEMO\Host
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-17 15:56:46.683
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-17 15:56:46.766
+!MESSAGE Log4j initialized with config file C:\Users\PANTECH\OneDrive\Desktop\DAY12-DEMO\Host\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-17 15:56:52.950
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-17 15:57:11.004
+!MESSAGE Indexed 'EXAMPLE3' (0 sources, 0 headers) in 0.002 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-17 17:43:04.701
+!MESSAGE Indexed 'example4' (0 sources, 0 headers) in 0.001 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-17 18:40:16.534
+!MESSAGE Indexed 'example5' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-17 19:02:25.247
+!MESSAGE Indexed 'example6' (0 sources, 0 headers) in 0 sec: 0 declarations; 0 references; 0 unresolved inclusions; 0 syntax errors; 0 unresolved names (0%)

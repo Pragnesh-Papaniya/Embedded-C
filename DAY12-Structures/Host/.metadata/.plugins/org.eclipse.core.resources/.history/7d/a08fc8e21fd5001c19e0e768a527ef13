@@ -1,0 +1,21 @@
+#include<stdio.h>
+#include<stdint.h>
+
+struct carModel
+{
+uint8_t carspeed;
+
+
+
+};
+
+int main(){
+
+	struct carModel carbmw={100};
+	printf("size of the struct variable  %u \n",sizeof(carbmw));
+	return 0;
+
+
+
+}
+

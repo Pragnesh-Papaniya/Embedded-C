@@ -1,0 +1,79 @@
+!SESSION 2022-05-16 18:31:00.446 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\PANTECH\OneDrive\Desktop\DAY12-DEMO\TARGET
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-16 18:31:14.239
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-16 18:31:14.388
+!MESSAGE Log4j initialized with config file C:\Users\PANTECH\OneDrive\Desktop\DAY12-DEMO\Target\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-16 18:31:22.878
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-16 18:32:20.667
+!MESSAGE Indexed 'EXAMPLE1' (3 sources, 53 headers) in 2.61 sec: 1,949 declarations; 2,811 references; 0 unresolved inclusions; 2 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-16 18:33:28.007
+!MESSAGE Indexed 'EXAMPLE1' (3 sources, 53 headers) in 0.961 sec: 1,949 declarations; 2,810 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-16 18:40:27.926
+!MESSAGE Indexed 'EXAMPLE2' (2 sources, 53 headers) in 0.95 sec: 1,947 declarations; 2,809 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.ui.ide 4 4 2022-05-16 19:10:02.912
+!MESSAGE Problems saving workspace
+
+!ENTRY org.eclipse.ui.ide 2 1 2022-05-16 19:10:02.943
+!MESSAGE Problems occurred while trying to save the state of the workbench.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2022-05-16 19:10:02.944
+!MESSAGE The project description file (.project) for 'EXAMPLE1' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+!SUBENTRY 1 org.eclipse.core.resources 2 234 2022-05-16 19:10:02.944
+!MESSAGE The project description file (.project) for 'EXAMPLE2' was missing.  This file contains important information about the project.  A new project description file has been created, but some information about the project may have been lost.
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-16 19:10:03.311
+!MESSAGE The workspace will exit with unsaved changes in this session.
+!SESSION 2022-05-16 19:36:22.349 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -data C:\Users\PANTECH\OneDrive\Desktop\DAY12-DEMO\TARGET
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-16 19:36:25.245
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-16 19:36:30.800
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-16 19:36:30.948
+!MESSAGE Log4j initialized with config file C:\Users\PANTECH\OneDrive\Desktop\DAY12-DEMO\Target\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-16 19:36:41.214
+!MESSAGE Started RMI Server, listening on port 41337
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-16 19:37:42.469
+!MESSAGE Indexed 'DEMO' (2 sources, 53 headers) in 2.09 sec: 1,947 declarations; 2,809 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2022-05-16 19:38:12.698
+!MESSAGE Indexed 'DEMO' (3 sources, 53 headers) in 0.784 sec: 1,949 declarations; 2,810 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.042%)
+!SESSION 2022-05-17 15:56:04.794 -----------------------------------------------
+eclipse.buildId=Version 1.9.0
+java.version=11.0.11
+java.vendor=AdoptOpenJDK
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_IN
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.core.resources 2 10035 2022-05-17 15:56:10.461
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 4 4 2022-05-17 15:56:14.008
+!MESSAGE CubeMX plugin appears to be active, Log4j initialization might be too late.
+
+!ENTRY com.st.stm32cube.ide.mcu.informationcenter 1 1 2022-05-17 15:56:14.084
+!MESSAGE Log4j initialized with config file C:\Users\PANTECH\OneDrive\Desktop\DAY12-DEMO\Target\.metadata\.log4j.xml
+
+!ENTRY com.st.stm32cube.ide.mcu.ide 1 1 2022-05-17 15:56:21.354
+!MESSAGE Started RMI Server, listening on port 41337

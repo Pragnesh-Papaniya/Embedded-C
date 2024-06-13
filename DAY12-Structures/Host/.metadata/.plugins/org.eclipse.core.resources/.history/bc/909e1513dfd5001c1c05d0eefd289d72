@@ -1,0 +1,39 @@
+
+#include <stdio.h>
+
+struct data
+{
+    char data1;
+    int data2;
+    char data3;
+    short data4;
+}definedata;
+
+
+int main()
+{
+    struct data definedata;
+
+    definedata.data1 =0x11;
+    definedata.data2=0xFFFFEEEE;
+    definedata.data3=0xFF;
+    definedata.data4=0xA5A5;
+
+    struct data *pointerData;
+
+    pointerData= &definedata;
+    printf("%x \n",definedata.data1);
+    pointerData->data1=0x22;
+
+    printf("%x \n",definedata.data1);
+
+
+
+
+    return 0;
+
+}
+
+
+
+

@@ -1,0 +1,18 @@
+#include<stdio.h>
+
+int main()
+{
+	char str[4]="Hello World";
+	int  len= sizeof(str);
+
+	printf("%d \n",len);
+
+
+	printf("Hello World\n");
+	printf("%s\n" ,str);
+
+
+	return 0;
+}
+
+

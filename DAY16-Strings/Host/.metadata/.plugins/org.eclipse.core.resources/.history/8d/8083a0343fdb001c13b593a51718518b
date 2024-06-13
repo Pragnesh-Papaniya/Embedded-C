@@ -1,0 +1,41 @@
+
+#include <stdint.h>
+
+
+int main(void)
+{
+   // uint32_t *pClkctrlreg =(uint32_t*)0x40023830;
+	uint32_t *pClkctrlreg =(uint32_t*)0x40023830;
+   // uint32_t *pPortDModereg =(uint32_t*)0x40020C00;
+	uint32_t *pPortDModereg =(uint32_t*)0x40000000;
+
+   // uint32_t *pPortDOutreg =(uint32_t*)0x40020C14;
+	 uint32_t *pPortDOutreg =(uint32_t*)0x40020004;
+	//
+//
+
+  //  uint32_t *pPortAModereg =(uint32_t*)0x40020C00;
+    //  uint32_t *pPortAOutreg =(uint32_t*)0x40020C14;
+
+
+    // Enable the clk  RCC AHB1 Peripheral clok enable register(RCC_AHB1ENR)
+uint32_t temp =*pClkctrlreg ;
+temp =temp | 0x01;
+*pClkctrlreg =temp;
+
+//*pClkctrlreg =*pClkctrlreg | 0X08;
+//*pClkctrlreg |= 0X08;
+
+//CONFIGURE THE MODE OF THE IO PIN AS OUPUT
+//A CLEAR THE 24TH AND 25TH BIT POSITION
+*pPortDModereg &=0xFFFFF3FF;
+*pPortDModereg |=0x01000000;
+
+
+// SET 12 TH BIT OF THE OUTPUT DATA REGISTER TO MAKE I/O PIN 12 HIGH
+///GPIO PORT MODE REGISTER (GPIO_MODER)
+//GPIO PORT IUTPUT DATA REGISTER
+*pPortDOutreg |=0X1000;
+
+	for(;;);
+}

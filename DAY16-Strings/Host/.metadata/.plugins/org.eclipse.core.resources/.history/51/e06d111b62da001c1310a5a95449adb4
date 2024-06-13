@@ -1,0 +1,32 @@
+/*
+ * stm32f411xx.h
+ *
+ *  Created on: May 23, 2022
+ *      Author: PANTECH
+ */
+
+#ifndef INC_STM32F411XX_H_
+#define INC_STM32F411XX_H_
+
+/* base addess of Flasha nd sram memories
+ *
+ * define
+ *
+ */
+#define FLASH_BASEADDR 0x08000000U
+#define SRAM1_BASEADDR 0x20000000U
+#define SRAM2_BASEADDR 0x20010000U
+#define ROM_BASEADDR 0x1FFF0000U
+
+#define PERIPH_BASE  0X40000000U
+#define APB1PERIPH_BASE  PERIPH_BASE
+#define APB2PERIPH_BASE  0X40100000U
+#define AHB2PERIPH_BASE  0X40020000U
+#define AHB2PERIPH_BASE  0X50000000U
+
+#define SRAM SRAM1_BASEADDR
+
+
+
+
+#endif /* INC_STM32F411XX_H_ */

@@ -1,0 +1,15 @@
+#include<stdio.h>
+
+int main()
+{
+	char str[40];
+	printf("Enter the name: ");
+	fflush(stdout;)
+	fgets(str,sizeof(str),stdin);
+	printf("Name :");
+	puts(str);
+	return 0;
+}
+
+
+

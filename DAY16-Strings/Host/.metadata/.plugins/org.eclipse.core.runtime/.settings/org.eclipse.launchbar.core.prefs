@@ -1,0 +1,14 @@
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/arch=x86_64
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/name=Local
+LaunchTargetManager/org.eclipse.launchbar.core.launchTargetType.local,Local/os=win32
+configDescList=org.eclipse.launchbar.core.descriptorType.default\:Example1.exe,org.eclipse.launchbar.core.descriptorType.default\:example2.exe,org.eclipse.launchbar.core.descriptorType.default\:example3.exe,org.eclipse.launchbar.core.descriptorType.default\:example7.exe,org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ledf411 Debug,org.eclipse.launchbar.core.descriptorType.default\:LEDDEMO Debug
+eclipse.preferences.version=1
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:exmapl5\ Debug/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ledf411\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:ledf411\ Debug/activeLaunchTarget=null\:---
+org.eclipse.launchbar.core.descriptorType.default\:Example1.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:Example1.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:example7.exe/activeLaunchMode=run
+org.eclipse.launchbar.core.descriptorType.default\:example7.exe/activeLaunchTarget=org.eclipse.launchbar.core.launchTargetType.local\:Local
+org.eclipse.launchbar.core.descriptorType.default\:exmapl5\ Debug/activeLaunchMode=debug
+org.eclipse.launchbar.core.descriptorType.default\:ledf411\ Debug/activeLaunchMode=debug

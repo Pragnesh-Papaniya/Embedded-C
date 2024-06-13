@@ -1,0 +1,22 @@
+#include<stdio.h>
+
+void displayString(char str[]);
+
+int main()
+{
+	char name[]="Pantech solutions";
+
+	char len=sizeof(name);
+
+
+	displayString(name);
+	return 0;
+}
+
+void displayString(char str[])
+{
+	printf("String Output");
+	fflush(stdout);
+	puts(str);
+
+}

@@ -1,0 +1,17 @@
+#include<stdio.h>
+
+int main()
+{
+	char name[]="Pantech solutions";
+
+	char len=sizeof(name);
+
+	for (int i=0;i<len;i++)
+	{
+		printf("%c", *(name+i));
+		fflush(stdout);
+	}
+
+	return 0;
+}
+

@@ -1,0 +1,35 @@
+#include<stdio.h>
+
+int main(){
+	char value;
+	printf("enter the value :");
+	fflush(stdout);
+	scanf("%c",&value);
+
+	switch(value){
+
+	case 'a' :
+
+		printf("The value is 1 :");
+
+		break;
+
+	case 'b':
+		printf("The value is 2 :");
+
+		break;
+
+	case 'c':
+		printf("The value is 3 :");
+
+		break;
+
+	default:
+
+		printf("The value is greater than 3 :");
+		break;
+	}
+	return 0;
+
+
+}
